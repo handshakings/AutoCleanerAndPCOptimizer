@@ -31,3 +31,4 @@ F:\abc\DO\AutoCleaner\AutoCleaner\bin\Debug\Newtonsoft.Json.xml
 F:\abc\DO\AutoCleaner\AutoCleaner\obj\Debug\AutoCleaner.csproj.AssemblyReference.cache
 F:\abc\DO\AutoCleaner\AutoCleaner\obj\Debug\AutoCleaner.About.resources
 F:\abc\DO\AutoCleaner\AutoCleaner\obj\Debug\AutoCleaner.Contact.resources
+F:\abc\DO\AutoCleaner\AutoCleaner\obj\Debug\AutoCleaner.Summary.resources
