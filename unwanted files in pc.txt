@@ -1,0 +1,34 @@
+Windows and third-party software leftovers
+Registry Cleaner
+Clipboard
+System Error/Full Memory Dumps
+	Complet Memory Dump file:  %SystemRoot%\MEMORY.DMP
+	Small Memory Dump: %SystemRoot%\Minidump
+	Kernel Memory Dump: %SystemRoot%\MEMORY.DMP Memory allocated to kernel and hrdware abstraction level
+	Automatic memory dump: %SystemRoot%\MEMORY.DMP
+
+	Run below commands in cmd (Admin rights) to delete all dumps
+	
+		fsutil usn deletejournal /d /n c:
+		del “%temp%*” /s /f /q
+		del “C:$Recycle.bin*” /s /f /q
+		del “%systemroot%temp*” /s /f /q
+		vssadmin delete shadows /for=c: /all /quiet
+		Dism /Online /Cleanup-Image /StartComponentCleanup /ResetBase
+
+DNS Cache
+Desktop/Start Menu Shortcuts
+Drive Installation Log Files
+Menu Order Cache
+Sys Tray Notification Cache
+Environment Path
+User Assist History
+
+Disk Cleanup
+	Temporary Internet Files
+	Windows error reports and feedback
+	DirectX shader Cache
+	Delivery optimization files
+	Thumbnails
+
+
